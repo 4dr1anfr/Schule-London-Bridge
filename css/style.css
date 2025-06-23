@@ -1,0 +1,133 @@
+body{
+ 
+    margin: .1rem;
+    background-color: rgb(177, 177, 177, 0.9);
+}
+h1{
+
+    margin-left: 40%;
+
+}
+.p1{
+
+  width: 60%;
+  line-height: 2.5;  
+
+}
+
+.header-main-class{
+
+    background-color: rgb(232, 244, 255);
+    padding-top: 1px;
+    border-radius: 7.5px;
+    padding-bottom: 15px;
+    
+}
+.main-top-part{
+
+    background-color: rgb(232, 244, 255);
+    height: 102px;
+    padding-top: 10px;
+    border-radius: 7.5px;
+    padding-bottom: 240px;
+
+}
+.main-main-class{
+
+    margin-top: 0.5rem;
+    
+}
+.Auflistung-main-top li {
+
+  line-height: 1.6;     /*platz zwichen zb <div's>*/
+
+}
+.Auflistung-main-top{
+
+    margin-top: -25px;
+
+}
+/*.image-main-top-alone{
+    
+    width: 555..4px;
+    height: 370.3px;
+
+ margin-left: 200px;
+
+}*/
+.Auflistung-main-top-div {
+      display: flex;
+      align-items: flex-start; /* oder center für vertikale Zentrierung */
+      gap: 20px; /* Abstand zwischen den Elementen */
+      padding: 20px;
+
+}
+.image-main-top-alone{
+
+    width: 470.2px;
+    height: 286.8px;
+    margin-top: -175px;
+    margin-left: 50px;
+    border-radius: 5px;
+
+}
+.Auflistung-main-top-2{
+
+    display: none;
+}
+.image-main-top-alone-2{
+
+    display: none;
+
+}
+.main-middle-part{
+
+    background-color: rgb(232, 244, 255);
+    margin-top: -11px;
+
+}
+
+@media (max-width: 800px) {
+  
+    h1{
+
+    margin-left: 25%;
+
+}
+ .text-class-1{
+
+    margin-left: 5px;
+
+}
+.main-top-part{
+
+    
+    padding-bottom: 320px;
+
+}
+.image-main-top-alone {
+
+    display: none;
+
+}
+.image-main-top-alone-2{
+
+    display: inline;
+    width: 460.2px;
+    height: 346.8px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.main-top-part{
+
+    
+    padding-bottom: 825px;
+
+}
+.p1{
+
+  width: 500px;  
+  line-height: 2.5;  
+
+}
+}

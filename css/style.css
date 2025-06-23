@@ -1,6 +1,6 @@
 body{
  
-    margin: 0rem;
+    margin: .1rem;
     background-color: rgb(177, 177, 177, 0.9);
 }
 h1{
@@ -115,18 +115,18 @@ h1{
     display: inline;
     width: 460.2px;
     height: 346.8px;
-    margin-left: 50px;
+    margin-left: 30px;
     border-radius: 5px;
 }
 .main-top-part{
 
     
-    padding-bottom: 700px;
+    padding-bottom: 825px;
 
 }
 .p1{
 
-  width: 550px;  
+  width: 500px;  
   line-height: 2.5;  
 
 }
